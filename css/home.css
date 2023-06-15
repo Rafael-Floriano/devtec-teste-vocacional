@@ -37,11 +37,11 @@ body, html {
     background-color: #000000;
     text-align: center;
     border: none;
-    border-radius: 30px;
-    width: 650px;
-    height: 200px;
-    margin-top: 15%;
-    font-size: 32px;
+    border-radius: 20px;
+    width: 500px;
+    height: 100px;
+    margin-top: 5%;
+    font-size: 26px;
     font-weight: bold;
     cursor: pointer;
 }
@@ -73,7 +73,7 @@ a {
     width: 100%;
 }
 
-/* @media (max-width: 764px) {
+@media (max-width: 764px) {
     
     .titulo{
         font-size: 22px;
@@ -98,9 +98,9 @@ a {
     .seta {
         width: 10px;
     }
-}*/
+}
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
     
     .titulo{
         font-size: 22px;
@@ -125,4 +125,4 @@ a {
     .seta {
         width: 10px;
     } 
-} */
+}
