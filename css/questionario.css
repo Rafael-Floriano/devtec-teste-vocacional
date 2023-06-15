@@ -51,6 +51,7 @@ input[type="radio"] {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-content: center;
     gap: 30x;
 }
 
@@ -114,17 +115,15 @@ input[type="radio"] {
     }
 }
 
-
-
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
     
     * {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .formulario {
         width: 80%;
-        height: 2500px;
+        height: 2900px;
         padding: 20px;
     }
 
@@ -153,3 +152,45 @@ input[type="radio"] {
     }
 }
 
+
+
+@media (max-width: 650px) {
+    
+    * {
+        font-size: 18px;
+    }
+
+    .formulario {
+        width: 80%;
+        height: 2800px;
+        padding: 20px;
+    }
+
+    .div-pergunta {
+        margin-top: 3px;
+    }
+
+    .div-logo-secundaria {
+        height: 40px;
+        width: 100%;
+    }
+
+    .logo-secundaria {
+        margin-left: 8%;
+        width: 90px;
+        height: 25px;
+    }
+
+    .opcoes {
+        margin-top: 5%;
+    }
+
+    .botao-avancar {
+        width: 40%;
+        height: 40px;
+    }
+}
+
+/* @media (max-width: 650px) {
+
+} */
