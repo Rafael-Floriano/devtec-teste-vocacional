@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+}
+
+.conteiner-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner-pai {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body, html {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,52,154,1) 53%, rgba(149,52,154,1) 92%);
+    width: 100%;
+    height: 100%;
+}
+
+.titulo {
+    font-weight: bold;
+}
+
+.botao-avancar {
+    background-color: #000000;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    width: 80%;
+    height: 60px;
+    margin-top: 5%;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.conteiner-botao {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.logo-principal {
+    width: 400px;
+    height: 100;
+}
+
+.titulo {
+    font-size: 32px;
+}
+
+.seta {
+    width: 15px;
+}
+
+a {
+    width: 100%;
+}
+
+@media (max-width: 764px) {
+    
+    .titulo{
+        font-size: 16px;
+    }
+
+    .logo-principal {
+        width: 200px;
+        height: 69px;
+    }
+
+    .botao-avancar {
+        font-size: 12px;
+        width: 80%;
+        height: 35px;
+    }
+
+    body, html {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,52,154,1) 76%, rgba(149,52,154,1) 100%); 
+    }
+
+    .seta {
+        width: 10px;
+    }
+}

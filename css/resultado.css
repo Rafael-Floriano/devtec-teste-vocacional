@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,100&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+body, html {
+    background-color: #F1CE3B;
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo {
+    padding: 30px 40px 2% 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.titulo {
+    margin-top: 5%;
+    font-weight: 700 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+}
+
+.conteudo-perfil {
+    text-align: justify;
+}
+
+.caminhos-perfil {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icon-de-festa {
+    width: 30px;
+    height: 30px;
+}
+
+#icone-perfil {
+    width: 120px;
+    height: 120px;
+}
+
+li {
+    font-weight: bold;
+}
+
+.conteudo {
+    gap: 50px;
+}
+
+.div-botao {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-avancar {
+    background-color: #000000;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    width: 400px !important;
+    height: 60px;
+    margin-top: 5%;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media (min-width: 764px) {
+    .formatacao {
+
+        background-color: #F1CE3B;
+        width: 1000px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    * {
+        font-size: 22px;
+    }
+
+    .div-botao {
+        width: 100%;
+    }
+
+    .botao-avancar {
+        width: 80%;
+    }
+}
+
+
+
+@media (max-width: 764px) {
+    
+    * {
+        font-size: 14px;
+    }
+
+}
