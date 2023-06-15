@@ -115,54 +115,16 @@ input[type="radio"] {
     }
 }
 
-/* @media (max-width: 1000px) {
-    
-    * {
-        font-size: 18px;
-    }
-
-    .formulario {
-        width: 80%;
-        height: 2900px;
-        padding: 20px;
-    }
-
-    .div-pergunta {
-        margin-top: 3%;
-    }
-
-    .div-logo-secundaria {
-        height: 40px;
-        width: 100%;
-    }
-
-    .logo-secundaria {
-        margin-left: 8%;
-        width: 90px;
-        height: 25px;
-    }
-
-    .opcoes {
-        margin-top: 5%;
-    }
-
-    .botao-avancar {
-        width: 40%;
-        height: 40px;
-    }
-} */
-
-
 
 @media (max-width: 1000px) {
     
     * {
-        font-size: 18px;
+        font-size: 26px;
     }
 
     .formulario {
-        width: 80%;
-        height: 2800px;
+        width: 90%;
+        height: 3500px;
         padding: 20px;
     }
 
