@@ -76,6 +76,33 @@ a {
 @media (max-width: 764px) {
     
     .titulo{
+        font-size: 14px;
+    }
+
+    .logo-principal {
+        width: 250px;
+        height: 82px;
+    }
+
+    .botao-avancar {
+        font-size: 12px;
+        width: 80%;
+        height: 35px;
+    }
+
+    body, html {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(114,52,154,1) 76%, rgba(149,52,154,1) 100%); 
+    }
+
+    .seta {
+        width: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .titulo{
         font-size: 16px;
     }
 
