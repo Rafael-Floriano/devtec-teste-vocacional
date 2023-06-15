@@ -73,7 +73,7 @@ a {
     width: 100%;
 }
 
-@media (max-width: 764px) {
+/* @media (max-width: 764px) {
     
     .titulo{
         font-size: 22px;
@@ -124,5 +124,5 @@ a {
 
     .seta {
         width: 10px;
-    }
-}
+    } */
+/* } */
