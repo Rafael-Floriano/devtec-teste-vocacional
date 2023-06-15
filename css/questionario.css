@@ -115,7 +115,7 @@ input[type="radio"] {
     }
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     
     * {
         font-size: 18px;
@@ -150,11 +150,11 @@ input[type="radio"] {
         width: 40%;
         height: 40px;
     }
-}
+} */
 
 
 
-@media (max-width: 650px) {
+@media (max-width: 1000px) {
     
     * {
         font-size: 18px;
