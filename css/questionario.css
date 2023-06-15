@@ -119,7 +119,7 @@ input[type="radio"] {
 @media (max-width: 1000px) {
     
     * {
-        font-size: 26px;
+        font-size: 42px;
     }
 
     .formulario {
