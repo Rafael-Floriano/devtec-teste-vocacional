@@ -124,12 +124,17 @@ input[type="radio"] {
 
     .formulario {
         width: 90%;
-        height: 3500px;
+        height: 7000px;
         padding: 20px;
+        word-wrap: break-word;
     }
 
     .div-pergunta {
         margin-top: 3px;
+    }
+
+    .pergunta {
+        font-weight: 500;
     }
 
     .div-logo-secundaria {
@@ -152,10 +157,11 @@ input[type="radio"] {
         height: 40px;
     }
 
-    .input[type="radio"] {
-        width: 80px;
-        height: 60px;
-    }
+/* Increase radio button's size */
+input[type='radio']{
+    width: 30px;
+    height: 30px;
+}
 }
 
 /* @media (max-width: 650px) {
