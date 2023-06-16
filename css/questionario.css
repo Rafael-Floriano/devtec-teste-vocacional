@@ -98,7 +98,7 @@ input[type="radio"] {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    gap: 3px;
+    gap: 10px;
 }
 
 .div-logo-secundaria {
