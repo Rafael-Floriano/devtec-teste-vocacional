@@ -122,6 +122,12 @@ input[type='radio']{
     height: 60px;
 }
 
+.descricao-opcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 1248px) {
     .formulario {
         width: 790px;
@@ -132,7 +138,7 @@ input[type='radio']{
 @media (max-width: 1000px) {
     
     * {
-        font-size: 42px;
+        font-size: 28px;
     }
 
     .formulario {
