@@ -80,7 +80,7 @@ li {
     cursor: pointer;
 }
 
-@media (min-width: 764px) {
+@media (min-width: 1000px) {
     .formatacao {
 
         background-color: #F1CE3B;
