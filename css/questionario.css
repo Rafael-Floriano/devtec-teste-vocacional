@@ -118,8 +118,8 @@ input[type="radio"] {
 
 input[type='radio']{
     /* margin-top: 5px; */
-    width: 60px;
-    height: 60px;
+    width: 60px !important;
+    height: 60px !important;
 }
 
 .descricao-opcao {
@@ -178,8 +178,8 @@ input[type='radio']{
     }
 
     input[type='radio']{
-        width: 60px;
-        height: 60px;
+        width: 60px !important;
+        height: 60px !important;
     }
 
 }
